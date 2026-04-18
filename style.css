@@ -1,0 +1,141 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+}
+
+body{
+  color:white;
+  background: linear-gradient(135deg,#1e3c72,#2a5298);
+}
+
+/* Navbar */
+header{
+  display:flex;
+  justify-content:space-between;
+  padding:20px 40px;
+  background:rgba(255,255,255,0.1);
+  backdrop-filter:blur(10px);
+}
+
+nav a{
+  margin:10px;
+  color:white;
+  text-decoration:none;
+}
+
+/* Hero */
+.hero{
+  text-align:center;
+  padding:100px 20px;
+}
+
+.profile-img{
+  width:140px;
+  height:140px;
+  border-radius:50%;
+  border:3px solid white;
+  margin-bottom:15px;
+}
+
+/* Button */
+.btn{
+  display:inline-block;
+  margin-top:15px;
+  padding:10px 20px;
+  background:linear-gradient(to right,#ff6a00,#ee0979);
+  border-radius:20px;
+  color:white;
+  text-decoration:none;
+}
+
+/* Sections */
+section{
+  padding:60px 20px;
+  text-align:center;
+}
+
+/* Cards */
+.card{
+  margin:20px auto;
+  width:320px;
+  padding:20px;
+  border-radius:15px;
+  background:rgba(255,255,255,0.1);
+}
+
+/* Skills */
+.skills-grid{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.skill-card{
+  width:120px;
+  margin:10px;
+  padding:20px;
+  border-radius:10px;
+  background:rgba(255,255,255,0.1);
+  
+}
+
+.skill-card i{
+  font-size:30px;
+  margin-bottom:10px;
+}
+
+
+.skill-card:hover i{
+  transform: rotate(10deg) scale(1.2);
+  color: yellow;
+}
+
+/* Projects */
+.projects-grid{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
+
+.project-card{
+  width:280px;
+  margin:15px;
+  padding:15px;
+  border-radius:15px;
+  background:rgba(255,255,255,0.1);
+  transition:0.3s;
+}
+
+.project-card:hover{
+  transform:translateY(-10px);
+}
+
+.project-card img{
+  width:100%;
+  border-radius:10px;
+}
+
+/* Form */
+input,textarea{
+  width:90%;
+  margin:10px;
+  padding:10px;
+  border-radius:10px;
+  border:none;
+}
+
+button{
+  padding:10px 20px;
+  border:none;
+  border-radius:20px;
+  background:#ff6a00;
+  color:white;
+}
+
+/* Footer */
+footer{
+  text-align:center;
+  padding:20px;
+}
